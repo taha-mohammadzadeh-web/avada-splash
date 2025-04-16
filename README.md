@@ -5,8 +5,8 @@
 
 <ul>
 <li><a href="">online demo</a></li>
-<li> coded by <a href="">taha mohammadzadeh</a></li>
+<li> coded by <a href="https://github.com/taha-mohammadzadeh-web">taha mohammadzadeh</a></li>
 <li> Used html and css</li>
-<li><a></a></li>
+<li>cotact me:<a href="mailto:tahamohammadzadeh.web@gmail.com">gmail</a></li>
   
 </ul>
