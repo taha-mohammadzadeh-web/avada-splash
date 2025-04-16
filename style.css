@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    background-image: url(img/splash-landing-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        >div {
+
+
+            >img {
+                width: 261px;
+                margin-top: 80px;
+                margin-bottom: 20px;
+                
+            
+
+            }
+
+
+            >h1 {
+                font-family: "Open Sans", sans-serif;
+                color: white;
+                font-size: 70px;
+                font-weight: 400;
+                margin-bottom: 20px;
+
+
+
+
+            }
+
+            >p {
+                font-size: larger;
+                color: gray;
+
+
+
+            }
+
+
+
+
+
+        }
+
+
+    }
+
+
+
+    .part2 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 60px;
+
+        >div {
+
+
+            >img {
+
+                width: 380px;
+                border-radius: 15px;
+                opacity: .5;
+
+                &:hover {
+                    opacity: 1;
+
+                }
+            }
+
+            h2 {
+
+                color: white;
+                font-family: "Open Sans", sans-serif;
+
+                margin: 20px 80px;
+
+            }
+
+            button {
+                width: 150px;
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                margin-top: 50px;
+                margin-left: 125px;
+                padding: 10px 0 0 37px;
+                color: white;
+                background-color: #ba8f0f;
+                letter-spacing: 1px;
+                border: none;
+                font-size: medium;
+
+            }
+
+
+
+        }
+
+
+
+
+    }
+
+
+
+
+
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+
+    width: 100%;
+    height: 70px;
+
+    >p {
+        text-align: center;
+        color: rgb(242, 246, 249);
+        padding-top: 22px;
+        font-size: large;
+
+        >a{
+
+
+            color: #a17b07;
+
+
+
+        }
+
+    }
+}
